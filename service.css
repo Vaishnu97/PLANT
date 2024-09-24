@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+    background-color: whitesmoke;
+
+   
+   
+}
+
+
+.header
+{
+    width: 100px;
+    height: 200px;
+    
+  
+
+}
+/* 
+<----------navbar---------------------------------------------> */
+
+ .h1-nav{
+    color:rgb(123, 177, 44);
+    font-size: xx-large;
+
+ }
+
+ .ul-list {
+        margin-left: 30px;
+ }
+
+ .home-nav{
+ 
+   font-size:20px;
+   margin-left: 120px;
+
+}
+.nnav-colo{
+   /* width:50%; */
+   display: flex;
+   justify-content: space-between;
+   
+}
+.header-sticky{
+    display: none;
+    position:fixed;
+    z-index: 900;
+    left:0;
+    padding:20px 0 ;
+    top:0;
+    border:none;
+    animation: 9s ease-in-out;
+    background-color: rgb(200, 244, 244);
+}
+
+.img-bg {
+   /* background-image:url("assets/plan.png");
+   background-repeat:no-repeat;
+   background-size: cover; */
+   
+   
+}
+.main-parent{
+    width: 100%;
+    height: 200%;
+}
+
+.main-parent{
+    width: 100%;
+    height: 2400px;
+    background-color:white;
+
+}
+
+.main-img{
+    padding: 30px;
+}
+.big-img {
+
+    padding: 30px;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+  }
+
+
+.big-img:hover{
+        font-size: large;
+      opacity: 1;
+      transform:scale(1.1,1.1);
+      transition: 2s;
+      
+      
+}
+.main-clints{
+    width: 100%;
+    height:600px;
+    /* background-image: url("assets/cardplant/bgfulll.webp"); */
+    background-color: gainsboro;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-div{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;padding-top: 20px;
+}
+
+.clien1:hover{
+    transform:scale(1.1,1.1);
+    transition: 1s;
+
+}
+.clintd2:hover{
+    transform:scale(1.1,1.1);
+    transition: 1s;
+}
+
+
+
+.botdiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;padding-top: 20px;
+
+}

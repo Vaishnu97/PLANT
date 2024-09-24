@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+    background-color: whitesmoke;
+
+   
+   
+}
+
+
+.header
+{
+    width: 100px;
+    height: 200px;
+    
+  
+
+}
+/* 
+<----------navbar---------------------------------------------> */
+
+ .h1-nav{
+    color:rgb(123, 177, 44);
+    font-size: xx-large;
+
+ }
+
+ .ul-list {
+        margin-left: 30px;
+ }
+
+ .home-nav{
+ 
+   font-size:20px;
+   margin-left: 120px;
+
+}
+.nnav-colo{
+   /* width:50%; */
+   display: flex;
+   justify-content: space-between;
+   
+}
+.header-sticky{
+    display: none;
+    position:fixed;
+    z-index: 900;
+    left:0;
+    padding:20px 0 ;
+    top:0;
+    border:none;
+    animation: 9s ease-in-out;
+    background-color: rgb(200, 244, 244);
+}
+
+.img-bg {
+   background-image:url("assets/cardplant/aboutplant.jfif");
+   background-repeat:no-repeat;
+   background-size: cover;
+   
+   
+}
+.main-parent{
+    width: 100%;
+    height: 200%;
+}
+
+.main-parent{
+    width: 100%;
+    height: 1500px;
+    background-color:white;
+
+}
+.small-head{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding-top: 50px;
+    word-spacing: 30px;
+    font-size: 30px;
+    color: rgb(138, 213, 24);
+      
+}
+.big-head{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(88, 164, 88);
+
+}
+.sc-port{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(138, 213, 24);
+}
+
+.black-parent{
+
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+
+.left-child{
+        width: 40%;
+        height: 100%;
+        text-align: center;
+        padding-top: 60px;
+
+
+}
+.right-child{
+    width: 60%;
+    height: 100%;
+    padding-top: 60px;
+    padding-right: 15px;
+
+}
+
+
+
+
+
+
